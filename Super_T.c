@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main() {
@@ -32,7 +31,7 @@ int main() {
 
     // Calculando Densidade Populacional e PIB per Capita
     densi1 = populacao1 / area1;
-    pibPerc1 = pib1   / populacao1; // PIB em reais
+    pibPerc1 = pib1  / populacao1; // PIB em reais
 
     // Declarando variáveis para a segunda carta
     char estado2;
@@ -64,7 +63,7 @@ int main() {
 
     // Calculando Densidade Populacional e PIB per Capita para a segunda carta
     densi2 = populacao2 / area2;
-    pibPerc2 = pib2  / populacao2; // PIB em reais
+    pibPerc2 = pib2 / populacao2; // PIB em reais
 
     // Exibindo os dados da primeira carta
     printf("\nCarta 1:\n");
